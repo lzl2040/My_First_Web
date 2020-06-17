@@ -6,6 +6,19 @@ body
 {
 width:100%;
 }
+ul
+{
+  margin:0;
+  padding:0;
+}
+li
+{
+  list-style:none;
+}
+a
+{
+  text-decoration:none;
+}
 .toppest
 {
     width:100%;
