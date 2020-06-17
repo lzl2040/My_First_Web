@@ -31,7 +31,8 @@ a
 .words
 {
     color:red;
-    margin-bottom:30x;
+    margin-bottom:0;
+    margin-top:0;
     animation: test;
     animation-duration:10s;
     animation-iteration-count: infinite;
