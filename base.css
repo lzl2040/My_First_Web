@@ -1,0 +1,12 @@
+.body
+{
+min-width:1280px;
+line-height:20px;
+}
+.clearfix::before,
+.clearfix::after
+{
+    content: '';
+    display:block;
+    clear:both;
+}
