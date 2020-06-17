@@ -6,14 +6,58 @@ body
 {
 width:100%;
 }
-h1
+.toppest
 {
-  color:red;
-  font-size:13px;
+    width:100%;
+    height:40px;
+    background-image: repeating-linear-gradient(to left,#84fab0,#8fd3f4);
+    line-height: 40px;
+    margin-bottom:1px;
+  
 }
-img
+.words
 {
-display:block;
-width:50px;
-height:30px;
+    display:block;
+    color:red;
+    animation: test;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width:100%;
+}
+@keyframes test {
+    to/*表示动画结束位置*/
+    {
+        margin-left:1100px;
+    }
+    from/*表示动画开始位置*/
+    {
+        margin-left:0px;
+    }
+}
+.top-wrapper
+{
+    width:100%;
+    height:40px;
+    background-color: lightblue;
+}
+.main-function
+{
+    float:left;
+    line-height: 40px;
+    transform: translateX(580px);
+}
+.main-function li
+{
+    float:left;
+    margin-left:15px;
+}
+.main-function :first-child a
+{
+    color:red;
+}
+.main-function li:hover a
+{
+    color:red;
+    font-size: 18px;
 }
