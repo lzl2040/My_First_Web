@@ -26,7 +26,7 @@ a
     background-image: repeating-linear-gradient(to left,#84fab0,#8fd3f4);
     line-height: 40px;
     margin-bottom:1px;
-  
+    overflow:hidden;
 }
 .words
 {
@@ -35,16 +35,16 @@ a
     animation-duration:10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    width:60%;
+    font-size:14px;
 }
 @keyframes test {
     to/*表示动画结束位置*/
     {
-        margin-left:1100px;
+        margin-left:100%;
     }
     from/*表示动画开始位置*/
     {
-        margin-left:0px;
+        margin-left:0;
     }
 }
 .top-wrapper
@@ -57,7 +57,7 @@ a
 {
     float:left;
     line-height: 40px;
-    transform: translateX(580px);
+    margin-left:38%;
 }
 .main-function li
 {
