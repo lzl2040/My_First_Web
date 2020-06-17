@@ -35,6 +35,7 @@ a
     animation-duration:10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    width:60%;
 }
 @keyframes test {
     to/*表示动画结束位置*/
