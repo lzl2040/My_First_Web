@@ -73,3 +73,12 @@ a
     color:red;
     font-size: 18px;
 }
+.main-boundary
+{
+    width:1478px;
+    height:700px;
+
+    background-image: url('./yinghua.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
