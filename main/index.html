@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0,user-scalable = yes,shrink-to-fit = no,maximum-scale = 0">
     <title>LiZuolei Website</title>
-    <link rel = "stylesheet" href = "./index.css">
-    <link rel = "stylesheet" href = "./base.css">
-     <link rel = "icon" href = "./logo.png">
+    <link rel = "stylesheet" href = "../css/index.css">
+    <link rel = "stylesheet" href = "../css/base.css">
+     <link rel = "icon" href = "../picResourse/logo.png">
 </head>
 <body>
   <div class="toppest">
         <span class = "words">欢迎访问Test网站！大一打基础，大二去接单!嘿嘿</span>
     </div>
+    <!--  -->
     <div class="top-wrapper">
         <div class="top-bar">
             <ul class = "main-function">
                 <li>
-                    <a href = "#">主页</a>
+                    <a href = "#" class = "home">主页</a>
                 </li>
                 <li>
-                    <a href = "#">成长</a>
+                    <a href = "#" class ="growth" >成长</a>
                 </li>
                 <li>
                     <a href = "#">日常</a>
@@ -30,8 +31,32 @@
             </ul>
         </div>
     </div>
-    <div class="main-boundary">
+    <div class="classify-wrapper">
+        <ul class = "function-wrapper">
+            <li class = "home">
+                <img src = "../picResourse/home.png" class = "homePic">
+                <span>主页</span>
+            </li>
+            <li class = "growth">
+                <img src = "../picResourse/growth.png">
+                <span>日志</span>
+            </li>
+            <li class = "daily">
+                <img src = "../picResourse/daily.png">
+                <span>日常</span>
+            </li>
+            <li class = "about">
+                <img src = "../picResourse/about.png">
+                <span>关于</span>
+            </li>
+        </ul>
+    </div>
         
     </div>
+    <!-- <script type="text/javascript"> 
+            alert(document.body.clientWidth);
+         </script>
+    -->
+        
 </body>
 </html>
