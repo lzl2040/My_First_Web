@@ -1,1 +1,35 @@
-{% extends "home.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizuolei Web</title>
+</head>
+<body>
+    <div class="toppest">
+        {% block content %}
+        <span class = "words">欢迎访问Test网站！大一打基础，大二去接单!嘿嘿</span>
+        {% endblock %}
+    </div>
+    <div class="top-wrapper">
+        {% block content %}
+        <div class="top-bar">
+            <ul class = "main-function">
+                <li>
+                    <a href = "#" class = "home">主页</a>
+                </li>
+                <li>
+                    <a href = "#" class ="growth" >成长</a>
+                </li>
+                <li>
+                    <a href = "#">日常</a>
+                </li>
+                <li>
+                    <a href = "#">关于我们</a>
+                </li>
+            </ul>
+        </div>
+        {% endblock %}
+    </div>
+</body>
+</html>
