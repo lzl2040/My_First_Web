@@ -1,6 +1,6 @@
 html
 {
-    width:100%;
+    width: 1688px;
     height:100%;
     background-image: url('../picResourse/yinghua.png');/*背景图*/
     background-repeat: no-repeat;
@@ -78,13 +78,11 @@ a
 
 .classify-wrapper
 {
-    width: 75%;
-   
+    width: 1200px;
     height: 300px;
     position: relative;
     top:20px;
     margin:0 auto;
-    overflow: hidden;
 }
 .classify-wrapper .function-wrapper
 {
@@ -92,7 +90,6 @@ a
     position:absolute;/*绝对定位不会发生边框合并*/
     margin:100px 0;
     height:100%;
-    overflow: hidden;
 
     /*background-color: aqua;*/
 }
