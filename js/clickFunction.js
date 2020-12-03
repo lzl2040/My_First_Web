@@ -2,14 +2,19 @@ var home = document.getElementsByClassName("home");
 var growth = document.getElementsByClassName("growth");
 var daily = document.getElementsByClassName("daily");
 var about = document.getElementsByClassName("about");
-//这是点击主页的形状
-for(var i = 0;i<home.length;i++)
+var view = document.getElementsByTagName("body")[0];
+if(view.className!="homeView")
 {
+    for(var i = 0;i<home.length;i++)
+    {
     home[i].onclick = function()
     {
         window.location.href="./main/home.html"//跳转页面
     }
+    }
 }
+
+
 for(var i = 0;i<growth.length;i++)
 {
     growth[i].onclick = function()
