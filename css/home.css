@@ -35,3 +35,43 @@
     line-height: 50px;
     font-size: 20px;
 }
+.myNote
+{
+    width:1200px;
+    height:800px;/*高度先不写死*/
+    background-color: rgba(76,71,76,.6);
+    position: relative;
+    top:-800px;
+    left:300px;
+    overflow: hidden;
+   
+}
+.myNote .add
+{
+    position: relative;
+    top:90%;
+    left:50%;
+    width:60px;
+    height:60px;
+    border-radius: 100%;
+
+}
+.pages
+{
+    position: relative;
+    left:850px;
+    top:-800px;
+   /* background-color: rgba(62, 157, 255, .8);*/ 
+    color:white;
+}
+.pages .inputP
+{
+    display: inline-block;
+    width:15px;
+    
+}
+.pages img
+{
+    height:20px;
+    width:20px;
+}
